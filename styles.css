@@ -7,10 +7,17 @@
 body {
   background-color: #1c1917;
   color: white;
-  padding: 40px;
+  padding: 48px;
 }
 
 /* MAIN LAYOUT */
+
+.container {
+  max-width: 1500px;
+  background-color: bisque;
+  margin: 0 auto;
+}
+
 .header {
   margin-bottom: 40px;
   display: flex;
@@ -22,6 +29,7 @@ body {
   background-color: #292524;
   margin-bottom: 40px;
   padding: 16px 40px;
+  text-align: center;
 }
 
 .main {
@@ -35,6 +43,11 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.logo img {
+  width: 68px;
+  height: 68px;
 }
 
 h1 {
