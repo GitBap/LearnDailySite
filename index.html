@@ -13,13 +13,16 @@
     <title>Learn daily!</title>
   </head>
   <body>
-    <header>
-      <img src="logo.png" height="68" width="68" alt="logo" />
-      <h1>Learn daily random facts</h1>
+    <header class="header">
+      <div class="logo">
+        <img src="logo.png" height="68" width="68" alt="logo" />
+        <h1>Learn daily random facts</h1>
+      </div>
+
       <button>Share a fact</button>
     </header>
 
-    <form action="">
+    <form class="fact-form">
       <input type="text" name="" id="" placeholder="Share a fact" />
       <span>200</span>
       <input type="text" name="" id="" placeholder="Trustworthy Source" />
@@ -32,7 +35,7 @@
       <button>post</button>
     </form>
 
-    <main>
+    <main class="main">
       <nav>
         <ul>
           <li>
@@ -49,13 +52,13 @@
 
       <section>
         <ul>
-          <li>
-            <p class="fact">
+          <li class="fact">
+            <p>
               React is being developed by Meta (formerly facebook)
               <a href="https://opensource.fb.com/" target="_blank">(Source)</a>
-              <span class="hashtag">#Technology</span>
             </p>
-            <div>
+            <span class="hashtag">#Technology</span>
+            <div class="reactionButtons">
               <button>👍24</button>
               <button>🤔9</button>
               <button>👎4</button>
@@ -64,8 +67,8 @@
         </ul>
 
         <ul>
-          <li>
-            <p class="fact">
+          <li class="fact">
+            <p>
               Millennial dads spend 3 times as much time with their kids than
               their fathers spent with them. In 1982, 43% of fathers had never
               changed a diaper. Today, that number is down to 3%
@@ -75,9 +78,9 @@
                 rel="noopener noreferrer"
                 >(Source)</a
               >
-              <span class="hashtag">#society</span>
             </p>
-            <div>
+            <span class="hashtag">#society</span>
+            <div class="reactionButtons">
               <button>👍15</button>
               <button>🤔8</button>
               <button>👎2</button>
