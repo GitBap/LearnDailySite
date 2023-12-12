@@ -14,7 +14,8 @@ body {
 
 .container {
   max-width: 1500px;
-  background-color: bisque;
+  /*   background-color: bisque;
+ */
   margin: 0 auto;
 }
 
@@ -84,4 +85,49 @@ h1 {
 
 ul {
   list-style: none;
+}
+
+.source:link,
+.source:visited {
+  color: #a8a29e;
+  text-decoration: none;
+  margin-left: 12px;
+  transition: 0.3s;
+}
+
+.source:hover {
+  color: blue;
+}
+
+.btn {
+  /*   border: none;
+ */
+  font-family: "Racing Sans One", sans-serif;
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 17px;
+  padding: 16px 0 13px;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  transform: scale(105%);
+  transition: 0.3s;
+}
+
+.btn-large {
+  font-size: 30px;
+  padding: 20px 32px 17px;
+}
+
+.btn-nav-all {
+  margin-bottom: 26px;
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+.btn-nav {
+  width: 100%;
+  background-color: cornflowerblue;
+  margin-bottom: 5px;
 }
